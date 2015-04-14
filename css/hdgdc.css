@@ -1,0 +1,19 @@
+/**
+ * @file
+ * Contains styles specific to the HDGDC sub-theme.
+ */
+
+.region-header,
+#block-menu-menu-footer-menu {
+  background-color: #006600;
+}
+
+.region-sidebar-first .block-block {
+  border-bottom: 1px solid #948a54;
+  border-top: 1px solid #948a54;
+  margin-top: 15px;
+}
+
+#homeSearchForm {
+  margin: 1.5em 0 1.5em 10px;
+}
