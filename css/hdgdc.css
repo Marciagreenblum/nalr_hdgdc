@@ -8,10 +8,14 @@
   background-color: #005b98;
 }
 
-.region-sidebar-first .block-block {
+.region-sidebar-first .block-block,
+.region-sidebar-first .block-facetapi {
   border-bottom: 1px solid #948a54;
   border-top: 1px solid #948a54;
   margin-top: 15px;
+}
+.region-sidebar-first .block-facetapi {
+  padding-bottom: 10px;
 }
 
 #homeSearchForm {
