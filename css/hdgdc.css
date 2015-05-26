@@ -21,3 +21,28 @@
 #homeSearchForm {
   margin: 1.5em 0 1.5em 10px;
 }
+
+/* Search page styles */
+.view-display-id-search_page .view-content {
+  color: #888888;
+  margin-top: 1em;
+}
+.view-display-id-search_page .views-row {
+  border-bottom: 1px solid #948a54;
+  margin-bottom: 0.75em;
+  padding-bottom: 0.75em;
+}
+.view-display-id-search_page .views-row:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.view-display-id-search_page .views-field.search-result-details {
+  margin-top: 0.5em;
+  margin-left: 3em;
+}
+
+/* Solr record page styles */
+.view-display-id-record_details_page {
+  margin-bottom: 1em;
+}
