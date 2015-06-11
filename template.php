@@ -109,3 +109,14 @@ function nalr_hdgdc_breadcrumb($variables) {
 
   return $output;
 }
+
+/**
+ * Returns HTML for the active facet item's count.
+ *
+ * @param $variables
+ *   An associative array containing:
+ *   - count: The item's facet count.
+ */
+function nalr_facetapi_count($variables) {
+  return '<span class="nalr-facet-count">(' . (int) $variables['count'] . ')</span>';
+}
