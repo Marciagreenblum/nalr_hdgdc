@@ -43,7 +43,7 @@
 }
 
 /* Facet API block styles */
-ul.facetapi-facetapi-links {
+/*ul.facetapi-facetapi-links {
   list-style-type: none;
   margin-left: 0.2em;
   padding: 0;
@@ -72,7 +72,7 @@ ul.facetapi-facetapi-links li a,
 .nalr-facet-count {
   color: #888888;
   font-size: 0.9em;
-}
+}*/
 
 /* Solr record page styles */
 .view-display-id-record_details_page {
