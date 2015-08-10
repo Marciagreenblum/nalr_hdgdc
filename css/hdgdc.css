@@ -42,39 +42,17 @@
   margin-left: 3em;
 }
 
-/* Facet API block styles */
-/*ul.facetapi-facetapi-links {
-  list-style-type: none;
-  margin-left: 0.2em;
-  padding: 0;
-}
-ul.facetapi-facetapi-links li {
-  border: 1px solid transparent;
-  padding-bottom: 3px;
-  padding-left: 10px;
-}
-ul.facetapi-facetapi-links li:hover {
-  padding-left: 8px;
-  border: 1px solid #948A54;
-  border-left: solid transparent;
-  border-right: solid transparent;
-}
-ul.facetapi-facetapi-links li a,
-.facetapi-limit-link {
-  color: #000000;
-  font-size: 0.9em;
-  text-decoration: none;
-}
-.facetapi-limit-link {
-  padding-left: 10px;
-  border: 1px solid transparent;
-}
-.nalr-facet-count {
-  color: #888888;
-  font-size: 0.9em;
-}*/
-
 /* Solr record page styles */
 .view-display-id-record_details_page {
   margin-bottom: 1em;
+}
+
+#content {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.frontpage-image {
+  float: left; 
+  margin-right: 10px; 
+  margin-bottom: 10px;
 }
