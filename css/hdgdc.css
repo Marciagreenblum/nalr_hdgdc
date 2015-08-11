@@ -4,6 +4,8 @@
  */
 
 .region-header,
+.mean-container .mean-bar,
+.mean-container .mean-nav,
 #block-menu-menu-footer-menu {
   background-color: #005b98;
 }
@@ -52,8 +54,8 @@
   padding-left: 10px;
 }
 .frontpage-image {
-  float: left; 
-  margin-right: 10px; 
+  float: left;
+  margin-right: 10px;
   margin-bottom: 10px;
 }
 
