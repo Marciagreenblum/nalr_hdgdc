@@ -80,7 +80,6 @@
   <div id="main">
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
-        <?if isset($page['info_center_header']): ?>
       <a id="main-content"></a>
      <?php  //@TODO - TEMPORARY FIX PUT IN MY NNEKA HECTOR AND SHOULD BE REMOVED AS SOON AS PANELIZER HAS BEEN ADDED FOR THESE CONTENT TYPES.  TEMPORARY HACK FOR PARTIAL DELIVERY OF PANELIZER IMPLEMENTATION.  ?>
       <?php if (isset($node) and ($node->type == 'advanced_article'  || $node->type == 'article')) { ?>
