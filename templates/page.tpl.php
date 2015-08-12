@@ -24,9 +24,9 @@
           <div class="header__site-slogan" id="site-slogan">
 		    <a href="http://www.nal.usda.gov" title="<?php print t('United States Department of Agriculture'); ?>"><span><?php print $site_slogan; ?></span></a>
 		 </div>
-		</div>  
+		</div>
         <?php endif; ?>
-		
+
 		<?php if ($site_name): ?>
           <div>
 		  <div class="header__site-name" id="site-name">
@@ -35,13 +35,13 @@
 		  </div>
         <?php endif; ?>
 
-        
+
       </div>
     <?php endif; ?>
 
     <div id="sub-nav-container">
 	<nav class="header__secondary-menu" id="sub-links" role="navigation">
-        <?php 
+        <?php
 		$menu = menu_navigation_links('menu-secondary-links');
 		print theme('links__menu_secondary_links', array(
 		'links' => $menu,
@@ -51,7 +51,7 @@
 		  )
         )); ?>
 	</nav>
-	
+
     <?php if ($secondary_menu): ?>
       <nav class="header--secondary-menu" id="secondary-menu" role="navigation">
         <?php print theme('links__system_secondary_menu', array(
@@ -80,7 +80,6 @@
   <div id="main">
     <div id="content" class="column" role="main">
       <?php print render($page['highlighted']); ?>
-        <?if isset($page['info_center_header']): ?>
       <a id="main-content"></a>
      <?php  //@TODO - TEMPORARY FIX PUT IN MY NNEKA HECTOR AND SHOULD BE REMOVED AS SOON AS PANELIZER HAS BEEN ADDED FOR THESE CONTENT TYPES.  TEMPORARY HACK FOR PARTIAL DELIVERY OF PANELIZER IMPLEMENTATION.  ?>
       <?php if (isset($node) and ($node->type == 'advanced_article'  || $node->type == 'article')) { ?>
@@ -99,7 +98,7 @@
       <?php endif; ?>
       <?php print render($page['content']); ?>
       <?php print $feed_icons; ?>
-    </div>   
+    </div>
 
     <?php
       // Render the sidebars to see if there's anything in them.
@@ -119,5 +118,5 @@
   <?php print render($page['footer']); ?>
 
 </div>
-<?php include "/app/drupal/sites/all/themes/nal_themes/nalr/templates/google.inc" ?>
+<?php include drupal_get_path('theme', 'nalr_hdgdc') . "/templates/google.inc" ?>
 <?php print render($page['bottom']); ?>
