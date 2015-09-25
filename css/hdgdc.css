@@ -41,6 +41,12 @@
   margin-top: 0.5em;
   margin-left: 3em;
 }
+.field-name-field-front-page-image {
+ display: block;
+ float: left;
+ position: relative;
+ margin-right: 10px;
+}
 
 /* Solr record page styles */
 .view-display-id-record_details_page {
@@ -92,3 +98,4 @@
     background-color: #005b98;
   }
 }
+
