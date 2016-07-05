@@ -101,3 +101,8 @@
   }
 }
 
+
+aside.sidebars .block-views, aside.sidebars .block-block {
+  margin: 0;
+  border: 0;
+}
